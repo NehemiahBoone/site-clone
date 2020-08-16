@@ -69,3 +69,18 @@ footer{
 .card-height{
   min-height: 30vh;
 }
+
+@media(min-width: 768px){
+  .card-edit{
+    position: absolute;
+    bottom: 0;
+    transform:translateY(8%) ;
+  }
+}
+
+
+@media(min-width:768px){
+.card-spill{
+  position: relative;
+  }
+}
