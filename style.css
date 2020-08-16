@@ -11,9 +11,17 @@ html{
   height: 100%;
 }
 
+.site-wrap{
+  overflow-x: hidden;
+}
+
 .nav-padding{
   padding-left: 0;
   padding-right: 0
+}
+
+.nav-custom{
+  font-family: 'Oswald', sans-serif;
 }
 
 .sticky{
@@ -46,4 +54,18 @@ footer{
 .thick-border{
   border-left: solid;
   border-left-width: thick;
+}
+
+.more{
+  position: absolute;
+  bottom: 80px;
+  right: 100px;
+}
+
+.custom-margin{
+  margin-top: 14vh;
+}
+
+.card-height{
+  min-height: 30vh;
 }
