@@ -62,14 +62,6 @@ footer{
   right: 100px;
 }
 
-.custom-margin{
-  margin-top: 14vh;
-}
-
-.card-height{
-  min-height: 30vh;
-}
-
 @media(min-width: 768px){
   .card-edit{
     bottom: 0;
